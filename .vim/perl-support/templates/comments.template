@@ -1,0 +1,58 @@
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.end-of-line-comment == append ==
+# <CURSOR>
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.frame ==
+#---------------------------------------------------------------------------
+#  <CURSOR>
+#---------------------------------------------------------------------------
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.function ==
+=head2 |FUNCTION_NAME|
+<CURSOR>
+=cut
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.method ==
+=head2 |FUNCTION_NAME|
+<CURSOR>
+=cut
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.file-description-pl == start ==
+#!/usr/bin/perl 
+
+use strict;
+use warnings;
+
+<CURSOR>
+
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.file-description-pm == start ==
+
+use strict;
+use warnings;
+
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.file-description-t == start ==
+
+use strict;
+use warnings;
+
+use Test::More tests => 1;
+
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.file-description-pod == start ==
+
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+== comment.keyword-bug == append ==
+ # BUG|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+== comment.keyword-todo == append ==
+ # TODO|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+== comment.keyword-tricky == append ==
+ # TRICKY|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+== comment.keyword-warning == append ==
+ # WARNING|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+== comment.keyword-workaround == append ==
+ # WORKAROUND|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+== comment.keyword-keyword == append ==
+ # :|?KEYWORD:u|:|DATE| |TIME|:|AUTHORREF|: <CURSOR>
+§%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
