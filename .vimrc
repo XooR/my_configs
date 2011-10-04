@@ -4,22 +4,17 @@ set nocompatible
 if has("syntax")
   syntax on
 endif
-filetype on
 filetype plugin on
 filetype indent on
-
 
 " Read indenting from current file, for adding lines
 set autoindent
 " For putting new lines
 set smartindent
 
-" Completion on : mode
-set wildmenu
-
 "Different colo scheme for cmnd line and GUI
 if has("gui_running")
-   colo rdark
+   colo vividchalk
    set guifont=DejaVu\ Sans\ Mono\ 11
    "Turn off blinking of cursor
    set guicursor+=a:blinkon0
@@ -71,7 +66,7 @@ nmap <C-n> <ESC>:noh<Enter>
 """" PLUGINS OPTIONS """"
 
 "VSTreeExplore normal mode Ctrl-F
-nmap <C-f> <ESC>:NERDTree<Enter>
+nmap <C-f> <ESC>:NERDTreeToggle<Enter>
 
 " Tag list
 let Tlist_Use_SingleClick = 1

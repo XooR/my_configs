@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/stanislav/.vim/ftdetect'
-let g:netrw_dirhist_2='/etc/cron.daily'
-let g:netrw_dirhist_3='/home/stanislav/Programiranje/work/PP1/my-app'
-let g:netrw_dirhist_4='/home/stanislav/Downloads/ChromeTMP/apache-cassandra-0.7.4/conf'
-let g:netrw_dirhist_5='/home/stanislav/.subversion/auth'
-let g:netrw_dirhist_6='/usr/lib/jvm/java-6-sun-1.6.0.24/jre/javaws'
